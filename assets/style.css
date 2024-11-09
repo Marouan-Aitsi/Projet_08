@@ -113,7 +113,7 @@ body {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: black;
 	border-radius: 0;
 }
 
@@ -266,6 +266,14 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.carousel-control-next {
+	color: black;
+}
+
+.carousel-control-prev {
+	color: black;
 }
 
 @media all and (max-width: 1180px) {
